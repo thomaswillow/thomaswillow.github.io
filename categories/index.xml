@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Thomas willow</title>
-    <link>https://thomaswillow.com/categories/</link>
+    <link>https://www.thomaswillow.com/categories/</link>
     <description>Recent content in Categories on Thomas willow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Thomas Willow</copyright><atom:link href="https://thomaswillow.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Thomas Willow</copyright><atom:link href="https://www.thomaswillow.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
