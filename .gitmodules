@@ -7,3 +7,6 @@
 [submodule "ukrollerskate/themes/devfest-theme-hugo"]
 	path = ukrollerskate/themes/devfest-theme-hugo
 	url = https://github.com/GDGToulouse/devfest-theme-hugo.git
+[submodule "Sunrise/themes/roxo"]
+	path = Sunrise/themes/roxo
+	url = git@github.com:StaticMania/roxo-hugo.git

@@ -1,0 +1,65 @@
+{{ define "main" }}
+{{ $headless := .Site.GetPage "/homepage" }}
+{{ $sections := $headless.Resources.ByType "page" }}
+{{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
+<header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
+    <div class="vertical">
+        <div id="site-head-content" class="inner">
+
+            {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
+            {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
+            {{ with .Params.header_subsubheadline }}<h3 class="blog-subdescription">{{ . }}</h3>{{ end }}
+
+            <!-- Noscript content for added SEO -->
+            <noscript><a href="https://www.eventbrite.co.uk/e/sunrise-tickets-428539542307" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
+            <!-- You can customize this button any way you like -->
+            <!-- <button id="eventbrite-widget-modal-trigger-428539542307" type="button">Buy Tickets</button> -->
+            <a id="eventbrite-widget-modal-trigger-428539542307" class='btn site-menu'>T i c k e t s</a>
+
+            <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+            <script type="text/javascript">
+                var exampleCallback = function() {
+                    console.log('Order complete!');
+                };
+
+                window.EBWidgets.createWidget({
+                    widgetType: 'checkout',
+                    eventId: '428539542307',
+                    modal: true,
+                    modalTriggerElementId: 'eventbrite-widget-modal-trigger-428539542307',
+                    onOrderComplete: exampleCallback
+                });
+            </script>
+
+
+
+
+            {{ range where $sections ".Params.header_menu" "eq" true }}
+                
+                 <!-- <a class='btn site-menu' data-title-anchor='{{ anchorize .Title }}'>{{ .Title }}</a> -->
+            {{ end }}
+            <i id='header-arrow' class="fa fa-angle-down"></i>
+            
+        </div>
+    </div>
+</header>
+<main class="content" role="main">
+
+    <div class='fixed-nav'>
+    </div>
+    {{ range $index_val, $elem_val := $sections }}
+        <div class='post-holder'>
+            <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ end }} {{ if eq (add $index_val 1) (len $sections) }}last{{ end }}'>
+                <header class="post-header">
+                    <h2 class="post-title">{{ .Title }}</h2>
+                </header>
+                <section class="post-content">
+                    {{ .Content }}
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    {{ end }}
+</main>
+{{ end }}
