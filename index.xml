@@ -93,40 +93,44 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolorem, laborum 
     </item>
     
     <item>
-      <title>about</title>
+      <title>About</title>
       <link>https://www.thomaswillow.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.thomaswillow.com/about/</guid>
-      <description>Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. This is demo site for Eternity theme. All images are taken from Unsplash. Features Configurable features.
-Multiple images support.
-Clean, fresh, minimalist.
-Integrated lazy load.
-Automaticly creates resized thumbnails.
-Shows exif if it exists.
-Installation Install Hugo.
-Create a new site.
-hugo new site yoursite cd yoursite Remove default config file.
-rm config.toml Submodule the theme.</description>
+      <description>Thomas willow is a conductor, pianist, guitarist, singer, producer and songwriter. Described by clash magazine as a young Leonard Cohen, Thomas Willow’s music is an array of soft strings and piano melodies that underpin his soulful vocals.
+Thomas Willow is the man behind “Willow &amp; Friends choir“ that creates standalone events often in listed buildings or churches.
+His music is timeless, elegant and profound. Qualities rare to come by in modern day music.</description>
     </item>
     
     <item>
-      <title>producer</title>
+      <title>Media</title>
+      <link>https://www.thomaswillow.com/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thomaswillow.com/media/</guid>
+      <description>Thomas Willow Jazz Show Reel (video &amp;copy Peggy Pollock) Download Show Reel &amp;amp; Price sheet HERE.</description>
+    </item>
+    
+    <item>
+      <title>Producer</title>
       <link>https://www.thomaswillow.com/producer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.thomaswillow.com/producer/</guid>
-      <description> Thomas Willow Production &amp; Mix Engineer Work Thomas Willow · Thomas Willow - Producer/Mix Engineer</description>
+      <description> Thomas Willow Production &amp; Mix Engineer Work. Thomas Willow · Thomas Willow - Producer/Mix Engineer </description>
     </item>
     
     <item>
-      <title>sunrise</title>
+      <title>Shows</title>
       <link>https://www.thomaswillow.com/sunrise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.thomaswillow.com/sunrise/</guid>
-      <description>
-Thomas Willow &amp; Friends - SUNRISE </description>
+      <description>Thomas Willow &amp; Friends - SUNRISE
+Thomas Willow - Jazz Singer / Pianist
+Download Show Reels &amp; Photos HERE.
+(Please enquire here for a Price Sheet)</description>
     </item>
     
   </channel>

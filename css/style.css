@@ -1,6 +1,6 @@
 .title {
     /* color: var(--white); */
-    color:#f8d152;
+    color:#ffc200;
     font-size: xx-large;
  
 }
@@ -27,7 +27,7 @@
     font-size: 3em;
     font-family: "Bigola Display Regular";
     padding-top: 20px;
-    color:#f8d152;
+    color:#ffc200;
 }
 
 .welcome-subtitle {
@@ -37,7 +37,7 @@
 .navbar-end {
     display: flex;
     justify-content: center;
-    color:#f8d152;
+    color:#ffc200;
 }
 
 .navbar-middle {
@@ -46,7 +46,7 @@
     justify-content: center;
     position: absolute;
     z-index: -9;
-    color:#f8d152;
+    color:#ffc200;
 }
 
 .socials {
@@ -101,7 +101,7 @@ nav.navbar {
     margin-right: 2em;
     padding-top: 1em;
     font-family: "Bigola Display Regular";
-    color:#f8d152;
+    color:#ffc200;
 }
 
 .navbar-burger {
@@ -113,7 +113,7 @@ nav.navbar {
     max-width: 600px;
     text-align: center;
     font-size: 1.2em;
-    color:#f8d152;
+    color:#ffc200;
 }
 
 .margin-bottom-50 {
@@ -143,7 +143,7 @@ img {
 
 a img {
     border: none;
-    color:#f8d152;
+    color:#ffc200;
 }
 
 .markdown p {
@@ -303,7 +303,7 @@ section .column img {
     margin-bottom: 30px;
     margin-left: 20px;
     font-size: medium;
-    width: 1200px;
+    width: 1600px;
 }
 
 .slide-meta {
