@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas Willow</title>
+    <link>https://www.thomaswillow.com/</link>
+    <description>Recent content on Thomas Willow</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.thomaswillow.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>404</title>
+      <link>https://www.thomaswillow.com/404.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thomaswillow.com/404.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bio</title>
+      <link>https://www.thomaswillow.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thomaswillow.com/about/</guid>
+      <description>Thomas Willow is a Conductor, Pianist, Singer, Producer and Songwriter. Described by Clash magazine as a young Leonard Cohen, Thomas Willow’s music is an array of soft strings and piano melodies that underpin his soulful vocals.
+Thomas Willow is the man behind “Willow &amp; Friends choir“ that creates standalone events often in listed buildings or churches.
+His music is timeless, elegant and profound. Qualities rare to come by in modern day music.</description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>https://www.thomaswillow.com/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thomaswillow.com/media/</guid>
+      <description>Thomas Willow Jazz Show Reel (video &amp;copy Peggy Pollock) Download Show Reel &amp;amp; Price sheet HERE.</description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>https://www.thomaswillow.com/listen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thomaswillow.com/listen/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Sunrise</title>
+      <link>https://www.thomaswillow.com/sunrise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.thomaswillow.com/sunrise/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>
